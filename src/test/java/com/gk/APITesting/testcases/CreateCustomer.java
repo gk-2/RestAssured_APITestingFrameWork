@@ -16,7 +16,7 @@ import static io.restassured.RestAssured.given;
 
 import java.util.Hashtable;
 public class CreateCustomer extends BaseTest   {
-	
+	//Sample comment to test git 
 	@Test(dataProviderClass=DataUtil.class, dataProvider="data")
 	public void validateCreateCustomerAPIWithValidKey(Hashtable<String,String> data) {
 		
